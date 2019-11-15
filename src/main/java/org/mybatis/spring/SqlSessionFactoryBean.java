@@ -395,6 +395,8 @@ public class SqlSessionFactoryBean implements FactoryBean<SqlSessionFactory>, In
 
   /**
    * {@inheritDoc}
+   *
+   * 初始化mybatis的各个对象，加载对应的到对象等
    */
   @Override
   public void afterPropertiesSet() throws Exception {
