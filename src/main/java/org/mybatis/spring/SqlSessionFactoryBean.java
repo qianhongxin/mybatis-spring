@@ -77,10 +77,12 @@ public class SqlSessionFactoryBean implements FactoryBean<SqlSessionFactory>, In
 
   private static final Logger LOGGER = LoggerFactory.getLogger(SqlSessionFactoryBean.class);
 
+   // mybatis-config.xml
   private Resource configLocation;
 
   private Configuration configuration;
 
+    // XxxMapper.xml
   private Resource[] mapperLocations;
 
   private DataSource dataSource;
